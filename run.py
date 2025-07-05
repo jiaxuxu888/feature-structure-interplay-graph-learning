@@ -7,7 +7,7 @@ from utils.execution import parallel_model_selection
 from utils.configuration import Config
 from utils.misc import create_datatime_dir, eprint, string2class
 
-
+# This script is used to run model selection experiments for different
 def parse_arguments():
     parser = argparse.ArgumentParser()
     # experiment params
